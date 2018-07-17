@@ -3,36 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "expo": "^21.0.2",
-    "native-base": "^2.2.1",
-    "react": "^16.0.0-alpha.12",
-    "react-dom": "^16.0.0-alpha.12",
-    "react-native": "^0.48.4",
-    "react-native-web": "^0.1.11"
+    "expo": "27.0.1",
+    "react": "16.3.1",
+    "react-dom": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-web": "0.8.8"
   },
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx-source": "^6.22.0",
-    "babel-preset-expo": "^4.0.0",
-    "flow-bin": "^0.57.3",
-    "jest-expo": "^21.0.2",
-    "react-native-scripts": "^1.5.0",
-    "react-scripts": "1.0.14",
-    "react-test-renderer": "^16.0.0-alpha.12"
+    "jest-expo": "27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "16.3.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "------------- WEB ----------------": "",
     "start-web": "react-scripts start",
     "build-web": "react-scripts build",
-    "test": "npm run test-web && npm run test-native",
-    "eject-web": "react-scripts eject",
     "------------- NATIVE -------------": "",
     "start-native": "react-native-scripts start",
-    "eject-native": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "------------- TEST ---------------": "",
+    "test": "npm run test-web && npm run test-native",
     "test-native": "node node_modules/jest/bin/jest.js --watch"
   },
   "jest": {
