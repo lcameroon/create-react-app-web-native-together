@@ -4,16 +4,20 @@
 
 Getting Started
 
-* create-react-app
-* create-react-native-app
+- create-react-app
+- create-react-native-app
 
 Dependencies
 
-* react
-* react-dom
-* react-native
-* react-native-web
-* native-base
-* expo
+- react
+- react-dom
+- react-native
+- react-native-web
+- native-base
+- expo
 
-<img src='https://cdn-images-1.medium.com/max/1000/1*X8d994pYWtwkTA1uLBSkNA.png' width='600' alt='create react app web and native together' />
+  npm i
+  npm start:web
+  npm start:native
+
+<img src='https://raw.githubusercontent.com/lcameroon/create-react-app-web-native-together/master/screenshot.png' width='800' alt='create react app web and native together' />
