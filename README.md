@@ -16,8 +16,10 @@ Dependencies
 - native-base
 - expo
 
-  npm i
-  npm start:web
-  npm start:native
+```bash
+npm i
+npm start:web
+npm start:native
+```
 
 <img src='https://raw.githubusercontent.com/lcameroon/create-react-app-web-native-together/master/screenshot.png' width='800' alt='create react app web and native together' />
