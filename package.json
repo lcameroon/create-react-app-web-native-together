@@ -27,9 +27,11 @@
     "android": "react-native-scripts android --reset-cache",
     "ios": "react-native-scripts ios --reset-cache",
     "------------- TEST ---------------": "",
-    "test": "npm run test:web:native",
+    "test": "npm run test:web",
     "test:watch": "node node_modules/jest/bin/jest.js --watch",
-    "test:web:native": "node node_modules/jest/bin/jest.js"
+    "test:all": "npm run test:web && npm run test:native",
+    "test:web": "react-scripts test --env=jsdom",
+    "test:native": "node node_modules/jest/bin/jest.js"
   },
   "jest": {
     "preset": "jest-expo"
